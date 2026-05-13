@@ -6,6 +6,8 @@ pub mod crypto;
 pub mod iterators;
 pub mod math;
 pub mod sort;
+pub mod state;
+pub mod token;
 pub mod trie;
 
 /// Dynamic programming (using memoization) example

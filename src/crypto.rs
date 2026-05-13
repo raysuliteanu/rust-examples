@@ -153,12 +153,12 @@ fn bytes_to_hex_string(bytes: Vec<u8>) -> String {
 fn nib_to_char(n: u8) -> char {
     match n {
         0..=9 => (n + b'0') as char,
-        10 => 'A' as char,
-        11 => 'B' as char,
-        12 => 'C' as char,
-        13 => 'D' as char,
-        14 => 'E' as char,
-        15 => 'F' as char,
+        10 => 'A',
+        11 => 'B',
+        12 => 'C',
+        13 => 'D',
+        14 => 'E',
+        15 => 'F',
         _ => panic!(),
     }
 }
